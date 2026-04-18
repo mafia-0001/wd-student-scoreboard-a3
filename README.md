@@ -1,16 +1,81 @@
-# React + Vite
+🎓 Student Scoreboard (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive student scoreboard built using React.
+This project allows users to manage student records, update scores, and view pass/fail status dynamically.
 
-Currently, two official plugins are available:
+⸻
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
 
-## React Compiler
+* 📋 Display student list in table format
+* ✏️ Update student scores in real-time
+* ➕ Add new students using a form
+* ✅ Automatic pass/fail status
+* 📊 Summary section (Total, Passed, Average Score)
+* 🎨 Custom styled UI with a modern neon/glass theme
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⸻
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (Vite)
+* JavaScript (ES6+)
+* CSS (Custom styling, no frameworks)
+
+⸻
+
+🌐 Live Demo
+
+👉 https://mafia-0001.github.io/wd-student-scoreboard-a3/
+
+⸻
+
+📁 Project Structure
+
+src/
+ ├── components/
+ │    ├── Header.jsx
+ │    ├── StudentTable.jsx
+ │    ├── StudentRow.jsx
+ │    ├── AddStudentForm.jsx
+ ├── App.jsx
+ ├── App.css
+ ├── main.jsx
+ 
+ ⸻
+
+⚙️ How It Works
+
+* State is managed in the main App component using useState
+* Data is passed to child components via props
+* Scores are updated dynamically using controlled inputs
+* Pass/Fail is determined based on score:
+    * Pass → score ≥ 40
+    * Fail → score < 40
+
+⸻
+
+📌 Deployment
+
+This project is deployed using GitHub Pages by uploading the production build (dist folder).
+
+⸻
+
+🤖 Note on AI Usage
+
+AI tools were used only for learning and understanding concepts during development.
+The implementation, logic, and code for this project were written and structured by me.
+
+⸻
+
+👨‍💻 Author
+
+Sambhav
+
+⸻
+
+📚 Note
+
+This project was created as part of a Web Development assignment to practice React concepts like components, props, state management, and conditional rendering.
+
+⸻
